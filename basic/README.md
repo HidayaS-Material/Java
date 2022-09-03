@@ -514,7 +514,7 @@ class Input {
      - Input: removeDuplicates(new String[]{"Nada" , "MOMO", "Salma", "Ali"})
      - Expected Output:["Nada" , "MOMO", "Salma", "Ali"]
 
-11. Write a Java function **removeElement** that takes an array of Numbers and Integer element as an argument and remove the element from the array then returns  a new array of Numbers without the element.
+11. Write a Java function **removeElement** that takes an array of Numbers and Integer element as an argument and remove the element from the array then returns  a new arrayList of Numbers without the element.
 
 * case 1:
     - Input: removeElement(new int []{1,5,11,3,7},11)
@@ -527,7 +527,7 @@ class Input {
     - Expected Output: [1,5,11,3,4,7,9,13]
 * case 4:
     - Input: removeElement(new int {11,5,11,3,4,7,9,13},11)
-    - Expected Output: [5,11,3,4,7,9,13]
+    - Expected Output: [5,3,4,7,9,13]
 * case 5:
     - Input: removeElement(new int []{4},4)
     - Expected Output: []

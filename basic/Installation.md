@@ -45,7 +45,7 @@
 ### Download Java Development Kit (JDK )installation file for Windows 10
 
 - ### Using your preferred web browser, navigate to [Download Page](https://drive.google.com/drive/folders/1LPf5xHZo5nCAqdwmldAu_J4LzZ-sxVRg?usp=sharing), Then download JDK Windows Version.
-![JDK Windows Version](./images/windows-JDK.png)
+![JDK Windows Version](../images/windows-JDK.png)
 <br/>
 
 ## After downloading the installation file, proceed with installing Java on your Windows system.
@@ -56,13 +56,13 @@
 
 - ### Step 2: Configure the Installation Wizard After running the installation file, the installation wizard welcome screen appears.
     1. ### Click Next to proceed to the next step.
-        ![install-1](./images/install-1.png)
+        ![install-1](../images/install-1.png)
 
     2. ### Choose the destination folder for the Java installation files or stick to the default path. Click Next to proceed.
-        ![install-2](./images/install-2.png)
+        ![install-2](../images/install-2.png)
 
     3. ### Wait for the wizard to finish the installation process until the Successfully Installed message appears. Click Close to exit the wizard.
-        ![install-3](./images/install-3.png)
+        ![install-3](../images/install-3.png)
 
 
 ## Set Environmental Variables in Java
@@ -73,19 +73,19 @@
 
 2. Select the Edit the system environment variables result.
 
- ![env-1](./images/env-1.png)
+ ![env-1](../images/env-1.png)
 
 3. In the System Properties window, under the **Advanced tab**, click **Environment Variables…**
 
- ![env-2](./images/env-2.png)
+ ![env-2](../images/env-2.png)
 
 4. Under the System variables category, select the **Path** variable and click **Edit**:
 
-![env-3](./images/env-3.png)
+![env-3](../images/env-3.png)
 
 5. Click the **New** button and enter the path to the Java bin directory
 
- ![env-4](./images/env-4.png)
+ ![env-4](../images/env-4.png)
 
 
 6. Click OK to save the changes and exit the variable editing window.
@@ -94,12 +94,12 @@
 Some applications require the **JAVA_HOME** variable. Follow the steps below to create the variable:
 
 1. In the Environment Variables window, under the System variables category, click the **New…** button to create a new variable.
- ![env-5](./images/env-5.png)
+ ![env-5](../images/env-5.png)
 
 2. Name the variable as **JAVA_HOME.**
 
 3. In the variable value field, paste the **path to your Java jdk directory** and click OK.
- ![env-6](./images/env-6.png)
+ ![env-6](../images/env-6.png)
 
 4. Confirm the changes by clicking OK in the Environment Variables and System properties windows.
 
@@ -108,7 +108,7 @@ Some applications require the **JAVA_HOME** variable. Follow the steps below to 
 ## Test the Java Installation
 Run the **java -version** command in the command prompt to make sure Java installed correctly:
 
-![version](./images/version.png)
+![version](../images/version.png)
 <br/>
 
 ## Installing IntelliJ IDEA on Windows
@@ -119,7 +119,7 @@ Run the **java -version** command in the command prompt to make sure Java instal
 ### Step1: Download IntelliJ IDEA using the Jetbrains website or using the [Download link](https://www.jetbrains.com/idea/download/).
 **Download the Community edition because it is free as well as open-source edition.** 
 
-![intellij](./images/intellij-1.png)
+![intellij](../images/intellij-1.png)
 
 
 
@@ -127,40 +127,40 @@ Run the **java -version** command in the command prompt to make sure Java instal
 <br/>
 
 ### Step3: After the security check, the setup will start loading. A welcome screen will appear. Click next and follow the installer instructions.
-![intellij-3](./images/intellij-2.png)
+![intellij-3](../images/intellij-2.png)
 
 ### Step4: Choose an appropriate installation location. Click Next.
 
-![intellij-4](./images/intellij-4.png)
+![intellij-4](../images/intellij-4.png)
 
 ### Step5: Choose an appropriate desktop shortcut. Also, select the '.java' file. This will associate the java files automatically with IntelliJ IDEA.
 
-![intellij-5](./images/intellij-5.png)
+![intellij-5](../images/intellij-5.png)
 
 
 Click on the Next button.
 
 ### Step6: Choose the start menu folder as 'JetBrains' (by default). Then, click Install.
 
-![intellij-6](./images/intellij-6.png)
+![intellij-6](../images/intellij-6.png)
 
 
 ### Step7: The IntelliJ IDEA will start installing to the system.
 
-![intellij-7](./images/intellij-7.png)
+![intellij-7](../images/intellij-7.png)
 
 
 ### Step8: After installing the setup, click on Next, then Finish.
 
 ## In this way, IntelliJ IDEA will get installed to the system.
 
-![intellij-8](./images/intellij-8.png)
+![intellij-8](../images/intellij-8.png)
 
 
 
 ### Step9: Open the IntelliJ IDEA from its shortcut. A dialog box will open asking to import settings from the previous installation. Select 'Do not import settings' radio button. Click OK. This option is chosen because the user might be installing IntelliJ for the first time.
 
-![intellij-9](./images/intellij-9.png)
+![intellij-9](../images/intellij-9.png)
 
 
 ##  HAPPY INSTALLATION :)
