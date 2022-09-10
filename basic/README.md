@@ -590,7 +590,7 @@ class Input {
     - Expected Output: true
 
 
-17. Write a Java function `convertToString` that accepts an array of Char and returns all the Chars  combined.
+17. Write a Java function `convertToString` that accepts an array of Char and returns all the Chars combined.
 
 * case 1:
     - Input: convertToString(new Character[]{'c', 'a', 't'});
